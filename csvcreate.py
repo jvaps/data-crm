@@ -1,8 +1,6 @@
 import csv
 import random
-import time
 
-import numpy
 from datetime import datetime, timedelta
 
 min_year = 2015

@@ -99,5 +99,5 @@ def make_pdf_file(archive):
     c.save()
 
 
-if __name__ == '__main__':
+def runner():
     make_pdf_file(filename)

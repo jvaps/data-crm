@@ -85,7 +85,7 @@ def gen_pdf():
     pdfm.write('teste/relatorio.pdf')
 
 
-if __name__ == '__main__':
+def runner():
     pie_graph(1, 'Relação de faixa etária')  # Indicador de faixa etária em relação a base inteira
     line_graph(dfYear, rate, 2, 'Satisfação',
                'Satistação do cliente por ano')  # Indicador de satisfação do cliente por ano em linhas
